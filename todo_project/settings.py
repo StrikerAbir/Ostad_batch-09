@@ -31,7 +31,7 @@ ALLOWED_HOSTS = [
     'subclimatic-sherri-nonprovocatively.ngrok-free.dev',
     '.ngrok-free.dev',  # Allow all ngrok-free.dev subdomains
     '.ngrok.io',  # Allow all ngrok.io subdomains (for paid ngrok)
-    'https://ostad-batch-09-abir.onrender.com'
+    'ostad-batch-09-abir.onrender.com'
 ]
 
 # CSRF trusted origins for ngrok
