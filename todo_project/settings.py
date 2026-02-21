@@ -33,6 +33,7 @@ ALLOWED_HOSTS = [
     '.ngrok.io',  # Allow all ngrok.io subdomains (for paid ngrok)
     'ostad-batch-09-abir.onrender.com'
 ]
+PORT = 8080
 
 # CSRF trusted origins for ngrok
 # Note: Django doesn't support wildcards in CSRF_TRUSTED_ORIGINS
