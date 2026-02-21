@@ -1,3 +1,20 @@
+
+
+# Production Deploy into Render (Updated part)
+
+First of all, for produciton depoly I needed to fix multiple files for proper deploy.
+
+- ✅ Needed to update the requirements.txt file. "gunicorn" needed to add in that file.
+- ✅ Needed to update the settings.py file. Where "ALLOWED_HOSTS" and "CSRF_TRUSTED_ORIGINS" setted for all.
+- ✅ At the time of setup Render for start the project I added "gunicorn todo_project.wsgi:application"
+
+
+
+
+
+
+
+
 # Django Todo App
 
 A complete Todo web application built with Django, featuring a modern UI with Tailwind CSS.
